@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use app\Http\Controllers\TaskController;
+use App\Http\Controllers\TaskController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,3 +16,5 @@ use app\Http\Controllers\TaskController;
 Route::get('/', function () {
     return view('welcome');
 });
+
+route::resource('tasks',TaskController::class);

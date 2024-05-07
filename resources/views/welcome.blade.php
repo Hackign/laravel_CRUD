@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
+        <!--Gustavo Adolfo Castillo Paez
+ID:858640
+TCDS
+Frameworks NRC: 66988
+4to Semestre
+Mario Porras-->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
